@@ -1,0 +1,36 @@
+#tutorial{
+	text-align: center;
+	padding:25px 0px 0px 0px;
+}
+
+#tutorial .steps{
+	padding:50px 50px;
+}
+
+#tutorial h4{
+	color:red;
+}
+
+#tutorial .row{
+	border: 1px solid black;
+}
+
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

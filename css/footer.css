@@ -1,0 +1,183 @@
+/*contact*/
+	.iframe-container{
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+	}
+	.iframe-container > *{
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+	.iframe-container{
+		margin-top:50px;
+		width:100%;
+	}
+
+	.content{
+    background-image: url(../assets/image/use6.jpg);
+    /* min-height: 380px; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    box-shadow: inset 0 0 0 500px rgba(181, 204, 204, 0.72);
+}
+#submit_btn
+{
+	width:40%;
+}
+	.form-group{
+		/*color:white;*/
+	}
+	.no-border {
+		border: 0;
+		box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+	}
+	.contact{
+		/*color:#BF2626;*/
+		/*color:#b9babf;*/
+		color:#6c7cb7;
+		font-weight:bold;
+		margin-top:25px;
+	}
+	.input,.textarea{
+		margin-left:5px;
+	}
+
+	.input:focus{
+		background-color:#b9dbe2;
+		color:black;
+	}
+	#label{
+		color:black;
+		margin-top:4px;
+	}
+	.code{
+		color:black;
+		font-weight:bold;
+		margin-left:7px;
+	}
+
+	#securitycode{
+		color:red;
+		    font-size: 30px;
+	}
+
+/**/
+/*footer start*/
+footer{
+	    background-color: #013e70 !important;
+	color:white;
+	padding:2% 0%;
+	font-family: 'Anaheim';
+}
+
+footer section{
+	background-color:blue;
+}
+footer section img{
+	    height: 200px;
+    	width: 66%;
+}
+#quick ul li{
+	list-style-type:none;
+	background-color:#013e70 !important;
+	border:0px;
+	font-family: inherit;
+	padding-left: 0px;
+	font-size: 15px;
+	/*color:#999;*/
+	color:white;
+	padding:2px 0px;
+	text-align: center;
+}
+
+#quick p{
+	text-align: center;
+}
+
+#quickly ul li{
+	list-style-type:none;
+	    background-color: #013e70 !important;
+	border:0px;
+	font-family: inherit;
+	padding-left: 0px;
+	padding:2px 0px;
+
+	font-size: 15px;
+	    /*font-size: 14px;*/
+
+
+}
+#quickly ul li a:hover{
+	color:#3795c1d6;
+	text-decoration:none
+}
+#quickly p{
+	font-size:19px;
+	  color: #c5c3c3;
+}
+#quickly ul li a{
+	color:white;
+	/*color:#999;*/
+}
+#quickly{
+	text-align: center;
+}
+
+
+#quick p{
+	font-size:19px;
+	    color: #c5c3c3;
+}
+#social{
+	text-align: center;
+}
+#social p{
+	font-size:22px;
+	  color: #c5c3c3;
+}
+#social ul li{
+	list-style-type:none;
+    background-color: #013e70 !important;
+	border:0px;
+	display:inline-block;
+	padding: 2%;
+	font-family: inherit;
+}
+#social ul li a span{
+
+	color:white;
+
+}
+#social .fb:hover{
+
+	color:darkblue;
+}
+#social .tweet:hover{
+
+	color:skyblue;
+}
+#social .link:hover{
+
+	color:#a51800;
+}
+#social .youtube:hover{
+
+	color:#ff5032;
+}
+#social img{
+	box-shadow:inset 0 0 0 500px rgba(163, 154, 175, 0.54);
+
+}
+
+/*footer end*/
